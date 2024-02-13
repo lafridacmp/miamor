@@ -1,0 +1,78 @@
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #61b9ec;
+}
+
+.container {
+    text-align: center;
+}
+
+#gifContainerImg {
+    width: 60%;
+    height: 60%;
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 16px;
+    margin: 10px;
+    cursor: pointer;
+}
+#siBtn {
+    padding: 10px 20px; 
+    font-size: 16px;
+    margin: 10px;
+    cursor: pointer;
+    background-color: #009705; /* Verde */
+    color: white;
+    border: 2px solid #FFC0CB; /* Bordes rosa */
+    border-radius: 10px; /* Esquinas redondeadas */
+}
+
+#noBtn {
+    padding: 10px 20px;
+    font-size: 16px;
+    margin: 10px;
+    cursor: pointer;
+    background-color: #0f1cd1; /* Rojo */
+    color: rgb(245, 245, 245);
+    border: 2px solid #FFC0CB; /* Bordes rosa */
+    border-radius: 20px; /* Esquinas redondeadas */
+}
+#noBtn span {
+    font-size: 18px;
+    color: hsl(0, 0%, 100%); /* Cambia el color del texto según tus preferencias */
+    /* Otras propiedades de estilo aquí */
+}
+
+#siBtn:hover{
+    background-color: #5246f0; /* Cambia a otro color en hover, puedes ajustar el valor según tus preferencias */
+}
+#noBtn:hover {
+    background-color: #ecde18; /* Cambia a otro color en hover, puedes ajustar el valor según tus preferencias */
+}
+.bg-green {
+    background-color: #00a0a0; /* Nuevo color de fondo verde */
+}
+
+#messageContainer {
+    font-size: 40px;
+    color: #133868; /* Color rojo */
+    font-family: 'Bangers', cursive;
+    text-shadow: 3px 3px 6px #2f18b1; /* Borde simulado */
+    animation: pulse 0.5s infinite alternate; /* Animación de palpitación más rápida */
+}
+
+@keyframes pulse {
+    from {
+        transform: scale(1);
+    }
+    to {
+        transform: scale(1.3); /* Zoom más grande */
+    }
+}
+
